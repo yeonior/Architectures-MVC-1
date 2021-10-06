@@ -63,6 +63,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A221EE9B270E2F88007DDEEB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A2AC7ABA270C7FFD00C1C678 /* Assets.xcassets */,
+				A2AC7ABC270C7FFD00C1C678 /* LaunchScreen.storyboard */,
+				A2AC7ABF270C7FFD00C1C678 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		A2AC7AA5270C7FFC00C1C678 = {
 			isa = PBXGroup;
 			children = (
@@ -87,9 +97,7 @@
 				A221EE9A270E29EC007DDEEB /* Model */,
 				A221EE96270E23CA007DDEEB /* Controller */,
 				A221EE97270E23D1007DDEEB /* View */,
-				A2AC7ABA270C7FFD00C1C678 /* Assets.xcassets */,
-				A2AC7ABC270C7FFD00C1C678 /* LaunchScreen.storyboard */,
-				A2AC7ABF270C7FFD00C1C678 /* Info.plist */,
+				A221EE9B270E2F88007DDEEB /* Support */,
 			);
 			path = "MVC-Code";
 			sourceTree = "<group>";
