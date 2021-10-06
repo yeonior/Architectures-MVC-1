@@ -8,5 +8,7 @@
 import Foundation
 
 struct Model {
-    var text: String = "Received text"
+    var labelText = "Received text"
+    let textFieldPlaceholder = "Write something to send"
+    let buttonTitle = "Send"
 }

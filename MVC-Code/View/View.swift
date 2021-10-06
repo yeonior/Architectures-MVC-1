@@ -33,12 +33,10 @@ class View: UIView {
         textField.backgroundColor = .white
         textField.borderStyle = .roundedRect
         textField.clearButtonMode = .whileEditing
-        textField.placeholder = "Write something to send"
         
         button = UIButton(frame: .zero)
         button.backgroundColor = .systemGray4
         button.layer.cornerRadius = 16.0
-        button.setTitle("Send", for: .normal)
         button.setTitleColor(.label, for: .normal)
         button.setTitleColor(.label.withAlphaComponent(0.5), for: .highlighted)
         

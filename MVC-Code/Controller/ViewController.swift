@@ -22,14 +22,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        myView.label.text = model.text
+        myView.label.text = model.labelText
+        myView.textField.placeholder = model.textFieldPlaceholder
+        myView.button.setTitle(model.buttonTitle, for: .normal)
         myView.button.addTarget(self, action: #selector(buttonDidTapped(_:)), for: .touchUpInside)
     }
     
     @objc
     func buttonDidTapped(_ sender: UIButton) {
         guard let text = myView.textField.text, text != "" else { return }
-        myView.label.text = text
+        model.labelText = text
+        myView.label.text = model.labelText
     }
 }
 
