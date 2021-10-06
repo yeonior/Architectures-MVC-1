@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var myView: View!
+    var model = Model()
     
     override func loadView() {
         super.loadView()
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myView.label.text = model.text
     }
 }
 
