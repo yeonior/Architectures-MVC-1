@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     
     @objc
     func buttonDidTapped(_ sender: UIButton) {
-        myView.label.text = myView.textField.text
+        guard let text = myView.textField.text, text != "" else { return }
+        myView.label.text = text
     }
 }
 

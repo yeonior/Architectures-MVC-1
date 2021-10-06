@@ -27,17 +27,20 @@ class View: UIView {
         label.layer.cornerRadius = 16.0
         label.clipsToBounds = true
         label.textAlignment = .center
+        label.numberOfLines = 0
         
         textField = UITextField(frame: .zero)
         textField.backgroundColor = .white
         textField.borderStyle = .roundedRect
         textField.clearButtonMode = .whileEditing
+        textField.placeholder = "Write something to send"
         
         button = UIButton(frame: .zero)
         button.backgroundColor = .systemGray4
         button.layer.cornerRadius = 16.0
         button.setTitle("Send", for: .normal)
         button.setTitleColor(.label, for: .normal)
+        button.setTitleColor(.label.withAlphaComponent(0.5), for: .highlighted)
         
         self.addSubview(label)
         self.addSubview(textField)
@@ -66,7 +69,7 @@ class View: UIView {
                 label.centerXAnchor.constraint(equalTo: self.centerXAnchor),
                 label.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: -100),
                 label.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 4/5),
-                label.heightAnchor.constraint(equalTo: label.widthAnchor, multiplier: 1/3)
+                label.heightAnchor.constraint(equalTo: label.widthAnchor, multiplier: 4/5)
             ])
             
             textField.translatesAutoresizingMaskIntoConstraints = false
