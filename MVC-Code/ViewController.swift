@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var myView: View!
+    
+    override func loadView() {
+        super.loadView()
+        
+        myView = View(frame: .zero)
+        view.addSubview(myView)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
 
