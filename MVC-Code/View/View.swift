@@ -13,18 +13,35 @@ class View: UIView {
     
     var label: UILabel!
     var textField: UITextField!
+    var button: UIButton!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.backgroundColor = .systemBackground
+        
         label = UILabel(frame: .zero)
-        label.backgroundColor = .red
+        label.backgroundColor = .white
+        label.layer.borderWidth = 1.0
+        label.layer.borderColor = UIColor.black.cgColor
+        label.layer.cornerRadius = 16.0
+        label.clipsToBounds = true
+        label.textAlignment = .center
+        
         textField = UITextField(frame: .zero)
-        textField.backgroundColor = .blue
+        textField.backgroundColor = .white
+        textField.borderStyle = .roundedRect
+        textField.clearButtonMode = .whileEditing
+        
+        button = UIButton(frame: .zero)
+        button.backgroundColor = .systemGray4
+        button.layer.cornerRadius = 16.0
+        button.setTitle("Send", for: .normal)
+        button.setTitleColor(.label, for: .normal)
         
         self.addSubview(label)
         self.addSubview(textField)
+        self.addSubview(button)
     }
     
     required init?(coder: NSCoder) {
@@ -57,7 +74,15 @@ class View: UIView {
                 textField.centerXAnchor.constraint(equalTo: self.centerXAnchor),
                 textField.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 100),
                 textField.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 4/5),
-                textField.heightAnchor.constraint(equalTo: label.widthAnchor, multiplier: 1/5)
+                textField.heightAnchor.constraint(equalTo: label.widthAnchor, multiplier: 1/7)
+            ])
+            
+            button.translatesAutoresizingMaskIntoConstraints = false
+            NSLayoutConstraint.activate([
+                button.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+                button.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: 200),
+                button.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 2/5),
+                button.heightAnchor.constraint(equalTo: label.widthAnchor, multiplier: 1/6)
             ])
             
             shouldSetupConstraints = false
