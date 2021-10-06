@@ -23,6 +23,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         myView.label.text = model.text
+        myView.button.addTarget(self, action: #selector(buttonDidTapped(_:)), for: .touchUpInside)
+    }
+    
+    @objc
+    func buttonDidTapped(_ sender: UIButton) {
+        myView.label.text = myView.textField.text
     }
 }
 
