@@ -1,6 +1,6 @@
 //
 //  View.swift
-//  MVC-Code
+//  Architecture-MVC
 //
 //  Created by ruslan on 06.10.2021.
 //

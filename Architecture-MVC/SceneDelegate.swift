@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  MVC-Code
+//  Architecture-MVC
 //
 //  Created by ruslan on 05.10.2021.
 //
