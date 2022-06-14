@@ -1,6 +1,6 @@
 //
 //  Model.swift
-//  Architecture-MVC
+//  Architecture-MVC-1
 //
 //  Created by ruslan on 07.10.2021.
 //

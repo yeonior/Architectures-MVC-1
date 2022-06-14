@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		A221EE94270E1929007DDEEB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		A221EE98270E29E9007DDEEB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVC-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AC7AB1270C7FFC00C1C678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2AC7AB3270C7FFC00C1C678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2AC7AB5270C7FFC00C1C678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		A2AC7AA5270C7FFC00C1C678 = {
 			isa = PBXGroup;
 			children = (
-				A2AC7AB0270C7FFC00C1C678 /* Architecture-MVC */,
+				A2AC7AB0270C7FFC00C1C678 /* Architecture-MVC-1 */,
 				A2AC7AAF270C7FFC00C1C678 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,12 +84,12 @@
 		A2AC7AAF270C7FFC00C1C678 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC.app */,
+				A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC-1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2AC7AB0270C7FFC00C1C678 /* Architecture-MVC */ = {
+		A2AC7AB0270C7FFC00C1C678 /* Architecture-MVC-1 */ = {
 			isa = PBXGroup;
 			children = (
 				A2AC7AB1270C7FFC00C1C678 /* AppDelegate.swift */,
@@ -99,15 +99,15 @@
 				A221EE97270E23D1007DDEEB /* View */,
 				A221EE9B270E2F88007DDEEB /* Support */,
 			);
-			path = "Architecture-MVC";
+			path = "Architecture-MVC-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2AC7AAD270C7FFC00C1C678 /* Architecture-MVC */ = {
+		A2AC7AAD270C7FFC00C1C678 /* Architecture-MVC-1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2AC7AC2270C7FFD00C1C678 /* Build configuration list for PBXNativeTarget "Architecture-MVC" */;
+			buildConfigurationList = A2AC7AC2270C7FFD00C1C678 /* Build configuration list for PBXNativeTarget "Architecture-MVC-1" */;
 			buildPhases = (
 				A2AC7AAA270C7FFC00C1C678 /* Sources */,
 				A2AC7AAB270C7FFC00C1C678 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = "Architecture-MVC";
+			name = "Architecture-MVC-1";
 			productName = "MVC-Code";
-			productReference = A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC.app */;
+			productReference = A2AC7AAE270C7FFC00C1C678 /* Architecture-MVC-1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2AC7AA9270C7FFC00C1C678 /* Build configuration list for PBXProject "Architecture-MVC" */;
+			buildConfigurationList = A2AC7AA9270C7FFC00C1C678 /* Build configuration list for PBXProject "Architecture-MVC-1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2AC7AAD270C7FFC00C1C678 /* Architecture-MVC */,
+				A2AC7AAD270C7FFC00C1C678 /* Architecture-MVC-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -316,12 +316,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "Architecture-MVC/Support/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVC-1/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -335,12 +335,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "Architecture-MVC/Support/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVC-1/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2AC7AA9270C7FFC00C1C678 /* Build configuration list for PBXProject "Architecture-MVC" */ = {
+		A2AC7AA9270C7FFC00C1C678 /* Build configuration list for PBXProject "Architecture-MVC-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2AC7AC0270C7FFD00C1C678 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2AC7AC2270C7FFD00C1C678 /* Build configuration list for PBXNativeTarget "Architecture-MVC" */ = {
+		A2AC7AC2270C7FFD00C1C678 /* Build configuration list for PBXNativeTarget "Architecture-MVC-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2AC7AC3270C7FFD00C1C678 /* Debug */,

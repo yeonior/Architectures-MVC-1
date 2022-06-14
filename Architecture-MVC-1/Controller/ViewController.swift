@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Architecture-MVC
+//  Architecture-MVC-1
 //
 //  Created by ruslan on 05.10.2021.
 //
